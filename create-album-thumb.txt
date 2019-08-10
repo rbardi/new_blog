@@ -1,0 +1,3 @@
+﻿ Cambiare alla riga 69 del controller e mettere:
+
+ $album->album_thumb = env('ALBUM_THUMB_DIR') . $fileName;
